@@ -1,9 +1,54 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "PP Neue Montreal", sans-serif
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: #EC7D2C;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.nav-item {
+    width: 110px;
+    text-align: center;
+}
+
+.nav-item a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+main div #header h1 {
+    font-family:"BrunelDeck-Bold-Trial.otf", serif;
+    font-weight: bold;
 }
 
 body {
     background-color: #121212;
     color: #F5F5F5;
+}
+
+#header {
+   font-size: x-large;
 }
