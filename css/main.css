@@ -84,7 +84,7 @@ img {
 
 #hero img {
     width: 100%; 
-    margin-bottom: 37px; 
+    margin-bottom: 20px; 
 }
 
 /* Section 1  */
@@ -97,7 +97,12 @@ img {
 }
 
 #blocco-1 h2 {
-    margin-bottom: 37px; 
+    margin-bottom: 20px; 
+}
+
+#img-blocco-1 {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 #blocco-1 p {
@@ -105,12 +110,7 @@ img {
 }
 
 #blocco-1 img {
-    margin: 0px 0px 37px 37px
-}
-
-#img-blocco-1 {
-    width: 100%;
-    margin-bottom: 37px;
+    margin: 0px 0px 20px 20px
 }
 
 /* Section 2  */
@@ -123,7 +123,7 @@ img {
 }
 
 #blocco-2 h2 {
-    margin-bottom: 37px; 
+    margin-bottom: 20px; 
 }
 
 #blocco-2 p {
@@ -131,17 +131,17 @@ img {
 }
 
 #didascalia-blocco-2 {
-    margin: 20px 0px 37px 37px;
+    margin: 20px 0px 20px 20px;
     font-size: 16px;
     font-style: italic;
 }
 
 #blocco-2 img {
-    margin: 14px 0px 0px 37px
+    margin: 14px 0px 0px 20px
 }
 
 #img-blocco-2 {
     width: 100%;
-    margin-bottom: 37px;
+    margin-bottom: 20px;
 }
 
