@@ -113,7 +113,7 @@ img {
     margin: 0px 0px 20px 20px
 }
 
-/* Section 2  */
+/* Section 2 */
 
 #blocco-2 {
     display: grid;
@@ -131,13 +131,13 @@ img {
 }
 
 #didascalia-blocco-2 {
-    margin: 20px 0px 20px 20px;
-    font-size: 16px;
+    margin: 20px 0px 20px 40px;
+    font-size: 14px;
     font-style: italic;
 }
 
 #blocco-2 img {
-    margin: 14px 0px 0px 20px
+    margin: 20px 0px 0px 40px
 }
 
 #img-blocco-2 {
@@ -145,3 +145,34 @@ img {
     margin-bottom: 20px;
 }
 
+/* Section 3 */
+
+#blocco-3 {
+    display: grid;
+    margin: 0 auto;
+    padding: 30px 130px;
+    grid-template-columns: 66% 33%;
+}
+
+#blocco-3 h2 {
+    margin-bottom: 20px; 
+}
+
+#blocco-3 p {
+    margin-bottom: 20px; 
+}
+
+#didascalia-blocco-3 {
+    margin: 20px 0px 20px 40px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#blocco-3 img {
+    margin: 20px 0px 0px 40px
+}
+
+#img-blocco-3 {
+    width: 100%;
+    margin-bottom: 20px;
+}
