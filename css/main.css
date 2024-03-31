@@ -1,18 +1,39 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "PP Neue Montreal", sans-serif
 }
+
+body {
+    background-color: #121212;
+    color: #F5F5F5;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 
 /* Navbar */
 
 #navbar {
-    background-color: #EC7D2C;
-    max-width: 100%;
     margin: 0 auto;
     padding: 30px 130px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 260px);
 }
 
 #nav-list {
@@ -21,8 +42,13 @@
     gap: 40px;
 }
 
+#marchio {
+    font-size: x-large;
+    font-weight: bold;
+}
+
 .nav-item {
-    width: 110px;
+    width: 124px;
     text-align: center;
 }
 
@@ -35,20 +61,54 @@
     font-weight: bold;
 }
 
-img {
-    max-width: 100%;
+.nav-menu {
+    align-self: self-end;
+    margin-bottom: 1px;
 }
 
-main div #header h1 {
-    font-family:"BrunelDeck-Bold-Trial.otf", serif;
-    font-weight: bold;
+/* Hero section */
+
+#hero h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 72px;
+    font-weight: 900;
+    
+    line-height: 108%;
+    letter-spacing: -4%;
+    
+    position: absolute;
+    top: 130px;
+    left: 130px; 
+    
 }
 
-body {
-    background-color: #121212;
-    color: #F5F5F5;
+#hero img {
+    width: 100%; 
+    margin-bottom: 37px; 
 }
 
-#header {
-   font-size: x-large;
+/* Section 1  */
+
+#blocco-1 {
+    display: grid;
+    margin: 0 auto;
+    padding: 30px 130px;
+    grid-template-columns: 66% 33%;
+}
+
+#blocco-1 h2 {
+    margin-bottom: 37px; 
+}
+
+#blocco-1 p {
+    margin-bottom: 20px;
+}
+
+#blocco-1 img {
+    margin-left: 37px;
+}
+
+#img-blocco-1 {
+    width: 100%;
+    margin-bottom: 37px;
 }
