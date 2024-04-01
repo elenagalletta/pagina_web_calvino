@@ -75,7 +75,6 @@ img {
     
     line-height: 108%;
     letter-spacing: -4%;
-    
     position: absolute;
     top: 170px;
     left: 130px; 
@@ -181,53 +180,52 @@ img {
 
 #footer {
     background-color:#121212;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 #marchio-footer {
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
-    padding: 40px 0px 40px 130px;
+    padding: 20px 0px 0px 130px;
 }
 
 #blocco-info {
     justify-content: space-between;
     width: calc(100% - 260px);
-    padding: 0px 130px;
-}
-
-#blocco-v-footer {
-    margin-bottom: 40px;
+    padding: 5px 0px 5px 130px;
 }
 
 #blocco-o-footer {
     width: 300px;
-    text-align: center;
-    gap: 40px;
+    text-align: left;
+    gap: 12px;
     display: flex;
+    font-size: 12px;
+    color: #ccc;
+    padding-bottom: 20px;
+    padding-top: 2px;
 }
 
 #blocco-o-footer :hover {
     text-decoration: underline;
+    color: #F5F5F5;
 }
 
 #blocco-info-icons {
     display:flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 #blocco-v-footer {
-    text-align: center;
     font-size: 10px;
     color: #ccc;
 }
 
-#icons {
-    display: flex;
+#icons img {
     justify-content: space-between;
     gap: 40px;
-    width: 7.8em;
-    align-items:baseline;
-    fill: #F5F5F5;
+    width: 1em;
+    align-items: baseline;
+    fill:#F5F5F5;
 }
