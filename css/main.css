@@ -42,7 +42,7 @@ img {
     gap: 40px;
 }
 
-#marchio {
+#marchio-navbar {
     font-size: x-large;
     font-weight: bold;
 }
@@ -174,5 +174,47 @@ img {
 
 #img-blocco-3 {
     width: 100%;
+}
+
+/* Footer */
+
+#footer {
+    background-color:#EC7D2C;
+    padding-bottom: 40px;
+}
+
+#marchio-footer {
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 40px 0px 40px 130px;
+}
+
+#blocco-info {
+    justify-content: space-between;
+    width: calc(100% - 260px);
+    padding: 0px 130px;
+}
+
+#blocco-v-footer {
     margin-bottom: 20px;
+}
+
+#blocco-o-footer {
+    width: 420px;
+    text-align: center;
+    gap: 40px;
+    display: flex;
+}
+
+#blocco-o-footer :hover {
+    text-decoration: underline;
+}
+
+#blocco-o-f-icons {
+    display:flex
+}
+
+#footer li  {
+    list-style-type: none;
+    display:inline;
 }
