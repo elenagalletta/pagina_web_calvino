@@ -34,6 +34,8 @@ img {
     position: fixed;
     top: 0;
     width: calc(100% - 5rem);
+    backdrop-filter: blur(5px);
+    z-index: 10;
 }
 
 #nav-list {
@@ -76,6 +78,7 @@ img {
     line-height: 108%;
     letter-spacing: -4%;
     position: absolute;
+    z-index: 0;
     top: 170px;
     left: 5rem; 
     
