@@ -173,3 +173,53 @@ img {
     width: 1em;
     fill:#F5F5F5;
 }
+
+/* Responsive UI */
+
+@media (max-width:1000px) {
+    .blocco {
+        display: block;
+    }
+
+    .blocco-immagine {
+        margin-left: 0;
+        margin: 40px 0px;
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .immagine-ribbon {
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 500px) {
+    .immagine-ribbon {
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 900px) {
+    #marchio-navbar {
+        font-size: medium;
+    }
+    #nav-list {
+        gap: 0px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 700px) {
+    #marchio-navbar {
+        font-size: small;
+    }
+    #nav-list {
+        gap: 0px;
+        font-size: small;
+    }
+}
