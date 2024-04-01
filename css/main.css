@@ -174,12 +174,13 @@ img {
 
 #img-blocco-3 {
     width: 100%;
+    display: block;
 }
 
 /* Footer */
 
 #footer {
-    background-color:#EC7D2C;
+    background-color:#121212;
     padding-bottom: 40px;
 }
 
@@ -196,11 +197,11 @@ img {
 }
 
 #blocco-v-footer {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #blocco-o-footer {
-    width: 420px;
+    width: 300px;
     text-align: center;
     gap: 40px;
     display: flex;
@@ -210,11 +211,23 @@ img {
     text-decoration: underline;
 }
 
-#blocco-o-f-icons {
-    display:flex
+#blocco-info-icons {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
-#footer li  {
-    list-style-type: none;
-    display:inline;
+#blocco-v-footer {
+    text-align: center;
+    font-size: 10px;
+    color: #ccc;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 7.8em;
+    align-items:baseline;
+    fill: #F5F5F5;
 }
