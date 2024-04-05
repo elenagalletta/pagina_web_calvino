@@ -318,11 +318,11 @@ img {
 
 @media (max-width: 400px) {
     body {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     h2 {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
     #marchio-navbar {
