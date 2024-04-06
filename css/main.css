@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    transition: all 0.3s ease-in-out;
 }
 
 body {
@@ -41,7 +42,6 @@ img {
     top: 0;
     width: calc(100% - 5rem);
     align-items: baseline;
-
 }
 
 #nav-list {
@@ -73,7 +73,6 @@ img {
 .nav-scrolled {
     backdrop-filter: blur(5px);
     background-color: #121212F0;
-    transition: background-color 0.25s ease-in-out;
   }
 
 /* Hero section */
