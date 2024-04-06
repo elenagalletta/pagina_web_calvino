@@ -20,6 +20,7 @@ body, footer, header {
 h2 {
     font-size: 2em;
     font-weight: bold;
+    z-index: 0;
 }
 
 img {
@@ -36,12 +37,11 @@ img {
     display: flex;
     justify-content: space-between;
     position: fixed;
+    z-index: 10;
     top: 0;
     width: calc(100% - 5rem);
     align-items: baseline;
 
-/*    backdrop-filter: blur(5px);
-    z-index: 10; */
 }
 
 #nav-list {
@@ -70,9 +70,11 @@ img {
     font-weight: bold;
 }
 
-#hamburger-menu {
-    display: none;
-}
+.nav-scrolled {
+    backdrop-filter: blur(5px);
+    background-color: #121212F0;
+    transition: background-color 0.25s ease-in-out;
+  }
 
 /* Hero section */
 
