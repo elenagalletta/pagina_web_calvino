@@ -81,7 +81,7 @@ img {
     font-family: "DM Serif Display", serif;
     font-size: 84px;
     font-weight: 900;
-    line-height: 105%;
+    line-height: 100%;
     letter-spacing: -5%;
     position: absolute;
     z-index: 0;
@@ -108,7 +108,8 @@ img {
 }
 
 .blocco-testo p {
-    margin-bottom: 20px; 
+    line-height: 1.4;
+    margin-bottom: 1.4rem; 
 }
 
 .blocco-didascalia {
@@ -258,7 +259,7 @@ img {
 
 @media (max-width: 600px) {
     body {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     h2 {
@@ -296,15 +297,6 @@ img {
 
 @media (max-width: 500px) {
 
-    #marchio-navbar {
-        font-size: 12px;
-    }
-
-    .nav-item {
-        width: 50px;
-        font-size: 10px;
-    }
-
     #hero h1 {
         font-size: 24px; 
         top: 8%; 
@@ -321,22 +313,22 @@ img {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     body {
-        font-size: 11px;
+        font-size: 15px;
     }
 
     h2 {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     #marchio-navbar {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .nav-item {
-        width: 45px;
-        font-size: 8px;
+        width: 50px;
+        font-size: 10px;
     }
 
     #hero h1 {
@@ -344,7 +336,7 @@ img {
         top: 7%; 
         left: 12%; 
         width: 90%; 
-        line-height: 110%;
+        line-height: 115%;
     }
 
     #marchio-footer {
@@ -352,6 +344,11 @@ img {
     }
 
     #blocco-o-footer, #blocco-v-footer {
-        font-size: 8px;
+        font-size: 10px;
+    }
+
+    #icons img {
+        width: 1.6em;
+        padding-right: 0.5rem;
     }
 }
